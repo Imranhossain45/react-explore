@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "price": 19.99,
+    "category": "Electronics",
+    "stock": 150,
+    "image_url": "https://example.com/products/mouse.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "description": "Noise-cancelling over-ear headphones with Bluetooth 5.0.",
+    "price": 59.99,
+    "category": "Electronics",
+    "stock": 80,
+    "image_url": "https://example.com/products/headphones.jpg"
+  },
+  {
+    "id": 3,
+    "name": "USB-C Charger",
+    "description": "Fast charging USB-C wall adapter.",
+    "price": 14.99,
+    "category": "Accessories",
+    "stock": 200,
+    "image_url": "https://example.com/products/charger.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "description": "Lightweight and comfortable running shoes for daily use.",
+    "price": 49.99,
+    "category": "Footwear",
+    "stock": 60,
+    "image_url": "https://example.com/products/shoes.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Backpack",
+    "description": "Durable and water-resistant travel backpack.",
+    "price": 39.99,
+    "category": "Bags",
+    "stock": 90,
+    "image_url": "https://example.com/products/backpack.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Smart Watch",
+    "description": "Fitness tracking smartwatch with heart rate monitor.",
+    "price": 99.99,
+    "category": "Wearables",
+    "stock": 50,
+    "image_url": "https://example.com/products/watch.jpg"
+  },
+  {
+    "id": 7,
+    "name": "LED Desk Lamp",
+    "description": "Adjustable LED desk lamp with touch controls.",
+    "price": 24.99,
+    "category": "Home",
+    "stock": 120,
+    "image_url": "https://example.com/products/lamp.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Coffee Maker",
+    "description": "12-cup programmable coffee maker with auto shut-off.",
+    "price": 69.99,
+    "category": "Appliances",
+    "stock": 40,
+    "image_url": "https://example.com/products/coffeemaker.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with blue switches.",
+    "price": 89.99,
+    "category": "Electronics",
+    "stock": 70,
+    "image_url": "https://example.com/products/keyboard.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Portable Hard Drive",
+    "description": "1TB USB 3.0 portable external hard drive.",
+    "price": 54.99,
+    "category": "Storage",
+    "stock": 110,
+    "image_url": "https://example.com/products/harddrive.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Gaming Chair",
+    "description": "Ergonomic gaming chair with lumbar support.",
+    "price": 129.99,
+    "category": "Furniture",
+    "stock": 35,
+    "image_url": "https://example.com/products/chair.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Electric Kettle",
+    "description": "Stainless steel electric kettle with auto shut-off.",
+    "price": 29.99,
+    "category": "Kitchen",
+    "stock": 75,
+    "image_url": "https://example.com/products/kettle.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Yoga Mat",
+    "description": "Eco-friendly non-slip yoga mat.",
+    "price": 22.99,
+    "category": "Fitness",
+    "stock": 95,
+    "image_url": "https://example.com/products/yogamat.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Wireless Earbuds",
+    "description": "Compact true wireless earbuds with charging case.",
+    "price": 44.99,
+    "category": "Electronics",
+    "stock": 130,
+    "image_url": "https://example.com/products/earbuds.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Digital Thermometer",
+    "description": "Instant-read digital thermometer for cooking.",
+    "price": 11.99,
+    "category": "Kitchen",
+    "stock": 140,
+    "image_url": "https://example.com/products/thermometer.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with timer.",
+    "price": 34.99,
+    "category": "Personal Care",
+    "stock": 85,
+    "image_url": "https://example.com/products/toothbrush.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Sunglasses",
+    "description": "Polarized UV protection sunglasses.",
+    "price": 19.99,
+    "category": "Accessories",
+    "stock": 200,
+    "image_url": "https://example.com/products/sunglasses.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Desk Organizer",
+    "description": "Multi-compartment desk organizer for office supplies.",
+    "price": 16.99,
+    "category": "Office",
+    "stock": 100,
+    "image_url": "https://example.com/products/organizer.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Laptop Stand",
+    "description": "Adjustable aluminum laptop stand.",
+    "price": 27.99,
+    "category": "Office",
+    "stock": 105,
+    "image_url": "https://example.com/products/laptopstand.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Microwave Oven",
+    "description": "700W countertop microwave oven with 10 power levels.",
+    "price": 89.99,
+    "category": "Appliances",
+    "stock": 25,
+    "image_url": "https://example.com/products/microwave.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Water Bottle",
+    "description": "Insulated stainless steel water bottle (750ml).",
+    "price": 17.99,
+    "category": "Fitness",
+    "stock": 180,
+    "image_url": "https://example.com/products/waterbottle.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Camping Tent",
+    "description": "4-person waterproof camping tent.",
+    "price": 99.99,
+    "category": "Outdoors",
+    "stock": 45,
+    "image_url": "https://example.com/products/tent.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Electric Fan",
+    "description": "16-inch pedestal fan with remote control.",
+    "price": 39.99,
+    "category": "Home",
+    "stock": 70,
+    "image_url": "https://example.com/products/fan.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Wireless Router",
+    "description": "Dual-band Wi-Fi 6 wireless router.",
+    "price": 74.99,
+    "category": "Electronics",
+    "stock": 55,
+    "image_url": "https://example.com/products/router.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Fitness Tracker",
+    "description": "Waterproof fitness tracker with step counter and sleep monitor.",
+    "price": 39.99,
+    "category": "Wearables",
+    "stock": 100,
+    "image_url": "https://example.com/products/fitnesstracker.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Photo Frame",
+    "description": "Wooden 8x10 photo frame with glass front.",
+    "price": 12.99,
+    "category": "Home Decor",
+    "stock": 90,
+    "image_url": "https://example.com/products/photoframe.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Bookshelf",
+    "description": "5-tier wooden bookshelf with modern design.",
+    "price": 119.99,
+    "category": "Furniture",
+    "stock": 30,
+    "image_url": "https://example.com/products/bookshelf.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Smart Light Bulb",
+    "description": "Wi-Fi enabled smart LED light bulb with app control.",
+    "price": 14.99,
+    "category": "Smart Home",
+    "stock": 160,
+    "image_url": "https://example.com/products/smartbulb.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Action Camera",
+    "description": "Waterproof 4K action camera with accessories kit.",
+    "price": 79.99,
+    "category": "Electronics",
+    "stock": 60,
+    "image_url": "https://example.com/products/actioncamera.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Wireless Keyboard & Mouse Combo",
+    "description": "Compact wireless keyboard and mouse combo for desktop/laptop.",
+    "price": 34.99,
+    "category": "Electronics",
+    "stock": 85,
+    "image_url": "https://example.com/products/kbmousecombo.jpg"
+  }
+]
