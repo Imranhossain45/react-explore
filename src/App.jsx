@@ -1,16 +1,21 @@
-
-import './App.css'
-import Home from './Components/Home/Home'
+import { useEffect, useState } from "react";
+import "./App.css";
+import UserData from "./components/UserData/UserData";
 
 function App() {
-
+  const [allData, setAllData] = useState([]);
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((data) => setAllData(data));
+  }, []);
   return (
-    <>
-    <Home></Home>
-      <h1>Vite + React</h1>   
-      
-    </>
-  )
+    <div className="grid grid-cols-3 gap-5">
+      {allData.map((userData) => (
+        <UserData key={userData.id} userData={userData}></UserData>
+      ))}
+    </div>
+  );
 }
 
-export default App
+export default App;
