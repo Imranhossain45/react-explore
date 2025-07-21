@@ -1,7 +1,7 @@
 import './Home.css'
 function Home(){
   return (
-    <div className='home'>
+    <div>
       <h1>I am from Home file</h1>
     </div>
   )
