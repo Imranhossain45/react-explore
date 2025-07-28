@@ -1,16 +1,13 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import { CountContext } from "./components/Context/CountContext";
+import Counter1 from "./components/Counter1/Counter1";
+import Counter2 from "./components/Counter2/Counter2";
 
 function App() {
-  const [count, setCount] = useState(0);
   return (
     <div>
-      <CountContext.Provider value={count}>
-        <Navbar></Navbar>
-        <button onClick={() => setCount(count + 1)}>Count - {count}</button>
-      </CountContext.Provider>
+      <Counter1></Counter1>
+      <Counter2></Counter2>
     </div>
   );
 }
