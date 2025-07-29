@@ -1,13 +1,26 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import "./App.css";
-import Counter1 from "./components/Counter1/Counter1";
-import Counter2 from "./components/Counter2/Counter2";
 
 function App() {
+  const [plus, setPlus] = useState(0);
+  const [minus, setMinus] = useState(0);
+  const handlePlus = () => {
+    setPlus(plus + 1);
+  };
+  const handleMinus = () => {
+    setMinus(minus + 1);
+  };
+  const checking = useMemo(() => {
+    console.log(".....");
+    for (let i = 0; i < 900000000; i++) {}
+    return plus % 2 === 0;
+  }, [plus]);
   return (
     <div>
-      <Counter1></Counter1>
-      <Counter2></Counter2>
+      <h4>Checking - {checking ? "Even" : "Odd"}</h4>
+      <button onClick={handlePlus}>Plus -{plus}</button>
+      <hr />
+      <button onClick={handleMinus}>Minus -{minus}</button>
     </div>
   );
 }
