@@ -1,26 +1,25 @@
-import React, { useMemo, useState } from "react";
+import React, { useReducer } from "react";
 import "./App.css";
 
 function App() {
-  const [plus, setPlus] = useState(0);
-  const [minus, setMinus] = useState(0);
-  const handlePlus = () => {
-    setPlus(plus + 1);
-  };
-  const handleMinus = () => {
-    setMinus(minus + 1);
-  };
-  const checking = useMemo(() => {
-    console.log(".....");
-    for (let i = 0; i < 900000000; i++) {}
-    return plus % 2 === 0;
-  }, [plus]);
+  const intialValue = 10;
+  const reducer = (state,action) =>{
+    if(action === 'plus'){
+      return state+1;
+    } else if(action === 'minus'){
+      return state-1;
+    }else{
+      return state;
+    }
+  }
+  const [count,dispatch] = useReducer(reducer,intialValue);
+  
   return (
     <div>
-      <h4>Checking - {checking ? "Even" : "Odd"}</h4>
-      <button onClick={handlePlus}>Plus -{plus}</button>
+      <h4>{count}</h4>
+      <button onClick={() => {dispatch('plus')}}>Plus </button>
       <hr />
-      <button onClick={handleMinus}>Minus -{minus}</button>
+      <button onClick={()=>{dispatch('minus')}}>Minus</button>
     </div>
   );
 }
